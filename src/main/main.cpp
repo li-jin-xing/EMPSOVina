@@ -451,7 +451,7 @@ Thank you!\n";
 //pso
 	const std::string cite_message = "\
 =================================================================================\n\
- HPSOVina version 1.0                                                            \n\
+ EMPSOVina version 1.0                                                            \n\
  J.X. Li & C. Li & J. Sun                                                        \n\
                                                                                  \n\
  School of Artificial Intelligence and Computer Science                          \n\
@@ -459,7 +459,7 @@ Thank you!\n";
                                                                                  \n\
  Contact li_jin_xing@163.com for more questions.                                 \n\
                                                                                  \n\
- HPSOVina was developed based on the framework of AutoDock Vina and PSO Vina.    \n\
+ EMPSOVina was developed based on the framework of AutoDock Vina and PSO Vina.    \n\
                                                                                  \n\
  For more information about AutoDock Vina, please visit http://vina.scripps.edu. \n\
                                                                                  \n\

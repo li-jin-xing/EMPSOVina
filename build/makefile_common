@@ -26,14 +26,14 @@ LIBS = -l boost_system${BOOST_LIB_VERSION} -l boost_thread${BOOST_LIB_VERSION} -
 %.o : ../../../src/split/%.cpp 
 	$(CC) $(CFLAGS) -I ../../../src/lib -o $@ -c $< 
 
-all: hpsovina hpsovina_split
+all: empsovina empsovina_split
 
 include dependencies
 
-hpsovina: $(MAINOBJ) $(LIBOBJ)
+empsovina: $(MAINOBJ) $(LIBOBJ)
 	$(CC) $(LDFLAGS) -o $@ $^ $(LIBS)
 
-hpsovina_split: $(SPLITOBJ)
+empsovina_split: $(SPLITOBJ)
 	$(CC) $(LDFLAGS) -o $@ $^ $(LIBS)
 
 clean:
